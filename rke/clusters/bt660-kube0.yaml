@@ -1,15 +1,15 @@
 nodes:
   # control plane
-  - address: tc660-kube0-ctl1
-    user: nozomi
+  - address: bt-660-kube0-ctl1
+    user: buttsbin
     role: ["controlplane", "etcd"]
     hostname_override: tc660-kube0-ctl1
     labels:
       node: ctl
 
   # gpc - worker nodes
-  - address: tc660-kube0-gpc1
-    user: nozomi
+  - address: bt-660-kube0-gpc1
+    user: butssbin
     role: ["worker"]
     hostname_override: tc660-kube0-gpc1
     labels:
